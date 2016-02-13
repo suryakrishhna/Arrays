@@ -24,13 +24,13 @@ public class Array {
         System.out.println("Enter operation: 1 Sum of Array ELements. 2 for Minimum Value of Array . 3 for Maximum value");
         int ch = scan.nextInt();
         if(ch ==1){
-            System.out.println(ArrayAdd.arrayTotal(arr));
+            System.out.println("Sum of Array Elements is: " + ArrayAdd.arrayTotal(arr));
         }
         else if(ch ==2){
-            System.out.println(MinValueOfArray.minValue(arr));
+            System.out.println("Minimum Value of the array is: " + MinValueOfArray.minValue(arr));
         }
         else if(ch ==3){
-            System.out.println(MaxValue.maxValue(arr));
+            System.out.println("Maximum Value of the array is: " + MaxValue.maxValue(arr));
         }
         else{
             System.out.println("Incorrect value. Try Again");
